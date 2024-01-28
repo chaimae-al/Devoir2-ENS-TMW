@@ -13,4 +13,6 @@ Le but de ce projet est de gérer les employés , l'utilisateur donc peut fair u
 
 
 
-Le menu contient une varieté de choix  , l'ajout, la modification et la suppression  , plus d'autres choix
+Le menu contient une varieté de choix  , l'ajout, la modification et la suppression  , plus d'autres element 
+L'utilisateur donc peut faire n'importe quelle operations , toutes celles-ci seront ajouter au fichier automatiquement si 
+l'utilisateur choisis de  quiter le programme
