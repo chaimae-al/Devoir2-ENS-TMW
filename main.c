@@ -10,8 +10,6 @@ int main()
 
     struct employe emp;
 
-
-
     mainMenu();
     do
     {
@@ -51,18 +49,20 @@ int main()
                 printf("entrer le code de l'employe que vous voulez supprimer : ");
                 scanf(" %d",&codeAsupprimer);
                 afficherEmployeParCode(list1,codeAsupprimer);
-                printf("Voulez-vous vraiment supprimer cet employe ? [yes | no] : ");
-                scanf("%s", res);
+                    printf("Voulez-vous vraiment supprimer cet employe ? [yes | no] : ");
+                    scanf("%s", res);
 
-                if (strcmp(res, "yes") == 0)
-                {
-                    supprimerEmployeParCode(list1, codeAsupprimer);
-                }
-                else
-                {
+                    if (strcmp(res, "yes") == 0)
+                    {
+                        supprimerEmployeParCode(list1, codeAsupprimer);
+                    }
+                    else
+                    {
 
-                    printf("\nL'employe ne sera pas supprime .\n");
-                }
+                        printf("\nL'employe ne sera pas supprime .\n");
+                    }
+
+            
                 break;
             }
             case 2:

@@ -32,7 +32,7 @@ struct listEmp
     struct elemntsEmp *head;
 };
 
-// les prototypes des fonctions utilis�es
+// les prototypes des fonctions utilisees
 void mainMenu();
 void MainChoix();
 struct listEmp* initiList();
@@ -40,6 +40,7 @@ struct listEmp* initiList();
 // les fonctions de verifications
 int estVide(struct listEmp* list);
 bool estUnique(struct listEmp* list, int codeV);
+int employeExiste(struct listEmp* list, int codeEmploye);
 
 // les fonctions d'affichage :
 void afficherList(struct listEmp* list);

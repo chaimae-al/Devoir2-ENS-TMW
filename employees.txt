@@ -18,7 +18,5 @@
 1611 Fixter Andy 4/4/2001 Sales-Rep 12200.00
 1612 Marsh Peter 10/3/1984 Sales-Rep 23000.00
 1619 King Tom 1/1/2003 Sales-Rep 9000.00
-1621 Nishi Marie 17/8/1986 Sales-Rep 21000.00
+1621 Nishis Marie 17/8/1986 Sales-Rep 21000.00
 1625 Kato Yoshimi 29/1/1987 Sales-Rep 32000.00
-1702 Girafe Martin 22/3/1992 Sales-Rep 17000.00
-12 hach al 3/2/2002 Sales-Rep 500.00

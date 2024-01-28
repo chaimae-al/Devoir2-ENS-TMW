@@ -59,6 +59,27 @@ void afficherList(struct listEmp* list)
     printf("\n");
 }
 
+int employeExiste(struct listEmp* list, int codeEmploye)
+{
+    if (estVide(list))
+    {
+        return 0; // La liste est vide, donc l'employé n'existe pas
+    }
+
+    struct elemntsEmp* it = list->head;
+    while (it != NULL)
+    {
+        if (it->data.code == codeEmploye)
+        {
+            return 1; // L'employé avec le code spécifié a été trouvé
+        }
+        it = it->next;
+    }
+
+    return 0; // Aucun employé avec le code spécifié n'a été trouvé
+}
+
+
 void afficherEmployeParCode(struct listEmp* list, int codeEmploye)
 {
     if (estVide(list))
@@ -76,7 +97,7 @@ void afficherEmployeParCode(struct listEmp* list, int codeEmploye)
                    it->data.code, it->data.nom, it->data.prenom,it->data.dateNaissance.jour,
                it->data.dateNaissance.mois,it->data.dateNaissance.annee,
                    it->data.titrePoste, it->data.salaire);
-            return; // Employee found and displayed
+            return; 
         }
         it = it->next;
     }
@@ -199,6 +220,7 @@ void supprimerEmployeParCode(struct listEmp* list, int codeEmploye)
 
     printf("Aucun employe avec le code %d n'a ete trouve.\n", codeEmploye);
 }
+
 
 void saisieCode(struct listEmp* list, struct employe* nouveauEmploye)
 {
