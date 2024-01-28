@@ -2,9 +2,9 @@
 # devoir 2 : TP - SDD (Structure de données )  - TMW (technologie des multimedia et du web ) - ENS Rabat
 
 	Ce projet à été mis en place par :  
-		HACHIMI ALAOUI Chaimae
-		MOUEDDENE Amina
-		MOUEDDENE Wafae
+		HACHIMI ALAOUI Chaimae  : chaimaehachimial@gmail.com
+		MOUEDDENE Amina			:moueddeneamina36@gmail.com
+		MOUEDDENE Wafae			:moueddenewafae504@gmail.com
 
 Le but de ce projet est de gérer les employés , l'utilisateur donc peut fair un ensemble  de tâches à partir d'un menu que s'affichera lors de l'execution .
 
