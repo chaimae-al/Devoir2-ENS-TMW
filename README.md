@@ -6,6 +6,11 @@
 		MOUEDDENE Amina
 		MOUEDDENE Wafae
 
-#	Le but de ce projet est de gérer les employés , l'utilisateur donc peut fair un ensemble  de tâches à partir d'un menu que s'affichera lors de l'execution .
+Le but de ce projet est de gérer les employés , l'utilisateur donc peut fair un ensemble  de tâches à partir d'un menu que s'affichera lors de l'execution .
 
-#	Le menu contient une varieté de choix  , l'ajout, la modification et la suppression  , plus d'autres choix
+
+----------------------------------------
+
+
+
+Le menu contient une varieté de choix  , l'ajout, la modification et la suppression  , plus d'autres choix
