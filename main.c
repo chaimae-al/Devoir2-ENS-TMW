@@ -49,13 +49,13 @@ int main()
                 printf("entrer le code de l'employe que vous voulez supprimer : ");
                 scanf(" %d",&codeAsupprimer);
                 afficherEmployeParCode(list1,codeAsupprimer);
-                    printf("Voulez-vous vraiment supprimer cet employe ? [yes | no] : ");
-                    scanf("%s", res);
+                printf("Voulez-vous vraiment supprimer cet employe ? [yes | no] : ");
+                scanf("%s", res);
 
-                    if (strcmp(res, "yes") == 0)
-                    {
+                if (strcmp(res, "yes") == 0)
+                {
                         supprimerEmployeParCode(list1, codeAsupprimer);
-                    }
+                }
                     else
                     {
 
