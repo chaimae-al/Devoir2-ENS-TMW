@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1706559515 source:c:\users\dalidatech\desktop\tmw_23-24\sdd\devoir2_hachimialaouichaimae_moueddeneamina_wafae\main.c
+	"header.h"
+
+1706559888 c:\users\dalidatech\desktop\tmw_23-24\sdd\devoir2_hachimialaouichaimae_moueddeneamina_wafae\header.h
+
+1706559892 source:c:\users\dalidatech\desktop\tmw_23-24\sdd\devoir2_hachimialaouichaimae_moueddeneamina_wafae\functions.c
+	"headerdev.h"
+
+1706559892 c:\users\dalidatech\desktop\tmw_23-24\sdd\devoir2_hachimialaouichaimae_moueddeneamina_wafae\headerdev.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
